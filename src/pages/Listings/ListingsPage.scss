@@ -1,0 +1,22 @@
+@import 'utils';
+
+$module: 'ListingsPage';
+
+.#{$module} {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .Listing {
+    margin-bottom: 1rem;
+
+    @include breakpoint('desktop') {
+      margin-bottom: 2.5rem;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

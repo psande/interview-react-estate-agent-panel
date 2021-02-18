@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "asking_price": 425000,
+  "currency": "£",
+  "type": "house",
+  "agent": "Purple Bricks",
+  "expired": false,
+  "address": {
+    "line_1": "Mansford Street",
+    "line_2": "London",
+    "post_code": "E3"
+  },
+  "rooms": {
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "livings": 1
+  }
+}

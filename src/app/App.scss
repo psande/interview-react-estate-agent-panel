@@ -1,0 +1,14 @@
+@import 'utils';
+@import 'typeface-lato';
+
+body {
+  background-color: $c-white;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+svg, img {
+  width: 100%;
+}

@@ -1,0 +1,35 @@
+@import 'utils';
+
+$module: 'Header';
+
+.#{$module} {
+  background-color: $c-main;
+  color: $c-white;
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: 600;
+  cursor: default;
+
+  svg {
+    display: inline;
+    height: 2.6rem;
+    width: auto;
+    margin-right: 0.5rem;
+    vertical-align: bottom;
+  }
+
+  div {
+    display: inline-block;
+  }
+
+  h1 {
+    font-size: 1.52rem;
+    line-height: 1.7rem;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+}
